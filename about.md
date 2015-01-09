@@ -8,4 +8,4 @@ Software engineer with experience in a variety of technologies, mostly web relat
 
 I got opinions.
 
-My non-work/open-source projects are at [https://github.com/ForSpareParts/](my GitHub page).
+My non-work/open-source projects are at [my GitHub page](https://github.com/ForSpareParts/).
