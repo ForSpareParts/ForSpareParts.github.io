@@ -10,18 +10,18 @@ my computed properties. Hopefully this saves somebody else the headache.
 
 I had a component for my project that looked something like this:
 
-    //components/my-component.js
+    {% raw %}//components/my-component.js
     export default Ember.TextField.extend({
       selectedModel: function() {
         return this.get('content').findBy('name', this.get('value'))
       }.property('value')
-    });
+    });{% endraw %}
 
 used in a template sort of like this:
 
-    {{ my-component
+    {% raw %}{{ my-component
       content=listOfABunchOfModels
-      selectedModel=someProperty }}
+      selectedModel=someProperty }}{% endraw %}
 
 Intuitively, every time 'value' (the value of the text field) updates,
 someProperty (which is bound to 'selectedModel') should be updated. Instead,
@@ -42,9 +42,9 @@ against the wall, here's what actually worked:
 
 With the template:
 
-    {{ my-component
+    {% raw %}{{ my-component
       content=listOfABunchOfModels
-      selectedModel=someProperty }}
+      selectedModel=someProperty }}{% endraw %}
 
 After I did this, the property fired every time the text field changed, and
 selectedModel was updated as I expected. Near as I can tell, here's why:
