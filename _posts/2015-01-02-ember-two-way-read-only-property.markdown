@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Ember: binding a read-only component property to a parent scope"
-date:   2014-11-30 18:53:00
+date:   2015-01-02 12:00:00
 tags: ember irc component debugging properties
 ---
 
