@@ -148,7 +148,7 @@ a:visited { color: #205caa; }
 
 .posts { list-style-type: none; }
 
-.posts li { margin-bottom: 30px; }
+.posts li { margin-bottom: 75px; }
 
 .posts .post-link {
   font-size: 24px;
@@ -160,6 +160,21 @@ a:visited { color: #205caa; }
   display: block;
   font-size: 15px;
   color: #818181;
+}
+
+.posts .post-content {
+  overflow-y: auto;
+  margin-bottom: 30px;
+}
+
+.posts .post-content p:last-child {
+  margin-bottom: 0;
+}
+
+.read-more, .comments-link {
+  display: block;
+  font-size: 18px;
+  width: 150px;
 }
 
 

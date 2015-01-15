@@ -9,6 +9,7 @@ I spent a couple days trying to figure out why updates weren't firing on one of
 my computed properties. Hopefully this saves somebody else the headache.
 
 I had a component for my project that looked something like this:
+<!-- more -->
 
     {% raw %}//components/my-component.js
     export default Ember.TextField.extend({

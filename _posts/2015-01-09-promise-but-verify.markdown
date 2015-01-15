@@ -12,6 +12,7 @@ work, but it stops just short of telling you how to hook into that behavior
 yourself. The following is my attempt to (very briefly) answer the question:
 
 In Ember, how do I write a test that depends on the resolution of a Promise?
+<!-- more -->
 
 For the impatient, here's the **tl;dr**:
 

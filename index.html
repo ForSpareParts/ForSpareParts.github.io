@@ -4,13 +4,14 @@ layout: default
 
 <div class="home">
 
-  <h1>Posts</h1>
-
   <ul class="posts">
     {% for post in site.posts %}
       <li>
         <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        <div class="post-excerpt post-content">{{ post.excerpt }}</div>
+        <a class="read-more" href="{{ post.url | prepend: site.baseurl }}">Read More</a>
+        <a class="comments-link" href="{{ post.url | prepend: site.baseurl }}#disqus_thread"></a>
       </li>
     {% endfor %}
   </ul>
