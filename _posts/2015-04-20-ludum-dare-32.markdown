@@ -1,0 +1,26 @@
+---
+layout: post
+title:  "Ludum Dare 32 entry: Heel Face Turn"
+date:   2015-04-20 10:10:00
+tags: unity3d ldjam heelfaceturn
+---
+
+I made a thing for Ludum Dare 32!
+
+[Heel Face Turn](http://commondatastorage.googleapis.com/itchio/html/53025/FINAL%20WEBGL%20BUILD/index.html)
+
+Shoot enemies to turn them into allies, but be careful -- you can only have one ally at a time, so
+converting another enemy turns your old ally against you! If your bullets hit other bullets, this
+will **also** cause your ally to revert to an enemy, because of Reasons. 
+
+WASD to move
+Mouse to aim
+Click to fire
+
+<!-- more -->
+
+Note that the second level can become unwinnable if you have enemies remaining who are blocked from
+each other by walls.
+
+I had a blast making this, and I learned a lot doing it -- I think I have a really solid idea for how to
+structure Unity projects in the future. I'll do a post about that soon!
