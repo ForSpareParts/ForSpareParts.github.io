@@ -13,9 +13,9 @@ Shoot enemies to turn them into allies, but be careful -- you can only have one 
 converting another enemy turns your old ally against you! If your bullets hit other bullets, this
 will **also** cause your ally to revert to an enemy, because of Reasons. 
 
-WASD to move
-Mouse to aim
-Click to fire
+* WASD to move
+* Mouse to aim
+* Click to fire
 
 <!-- more -->
 
