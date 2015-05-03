@@ -1,12 +1,9 @@
 ---
 layout: post
-title:  "Promise, but verify"
+title:  "Messaging in Unity (without SendMessage)"
 date:   2015-05-02 20:23:00
 tags: unity messaging ld32
 ---
-
-Messaging in Unity (without SendMessage)
-========================================
 
 [Ludum Dare](http://ludumdare.com/compo/) is a 48-hour solo game jam. Naturally, that means quick, dirty work. It is absolutely, positively, not the right time to be looking for elegant solutions to vexing technical design problems that could be solved temporarily with a handwave. You'd have to be absolutely insane to confront architecture woes on a two-day deadline. Very bad idea.
 
