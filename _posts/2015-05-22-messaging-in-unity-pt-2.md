@@ -21,6 +21,8 @@ to** events. I decided to knock together a naive message bus implementation of
 my own. And given my [caffeine-addled, sleep-deprived state]
 (http://ludumdare.com/compo/), it actually turned out pretty well.
 
+<!-- more -->
+
 Before I begin, a disclaimer (similar to the one in the last post). I'm not a C#
 expert, or a Unity expert. This is something I figured out that seems to work
 pretty well, and I'm offering it in the hopes it may be useful -- or that
