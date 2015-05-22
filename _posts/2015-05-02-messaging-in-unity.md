@@ -59,4 +59,6 @@ SetupListeners() "subscribes" (or "binds") SomeHandler to evnt. If you were to f
 
 you would see two logging messages: `The int value is: 42` and `The string value is: hello!`. When you call Invoke(), the event calls *every method subscribed to it* using Invoke's arguments. Take note of two things: First, there could be any number of methods subscribed to evnt, or none at all. Second, and just as important: the code that calls Invoke doesn't need to know about them.
 
-Hopefully, this is already suggesting some interesting possibilities to you. When I learned about it, my first reaction was to wonder how different classes would share event objects to subscribe to and invoke. I've got a solution to that problem that I really like -- but this post is getting rather long, so I'll leave it for next time.
+Hopefully, this is already suggesting some interesting possibilities to you.
+When I learned about it, my first reaction was to wonder how different classes
+would share event objects to subscribe to and invoke. I've got a solution to that problem that I really like -- but this post is getting rather long, so I'll leave it for [next time](/2015/05/22/messaging-in-unity-pt-2/).
