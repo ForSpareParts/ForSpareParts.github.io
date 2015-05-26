@@ -18,8 +18,8 @@ a message "bus" -- a central hub through which messages travel. By making the
 message bus widely accessible, you create a single (very, very simple) point of
 contact that disparate pieces of code can use to **publish** and **subscribe
 to** events. I decided to knock together a naive message bus implementation of
-my own. And given my [caffeine-addled, sleep-deprived state]
-(http://ludumdare.com/compo/), it actually turned out pretty well.
+my own. And given my [caffeine-addled, sleep-deprived state](http://ludumdare.com/compo/),
+it actually turned out pretty well.
 
 <!-- more -->
 
