@@ -81,7 +81,7 @@ The API for creating Changes can be found [here](http://code-monkey.readthedocs.
 So, yeah.
 ---------
 
-If your curiosity is piqued, you can grab code_monkey right now off of pip. I'd welcome comments and criticism, of course. It's **super** alpha right now.
+If your curiosity is piqued, you can grab code_monkey off of pip. I'd welcome comments and criticism, of course. It's **super** alpha right now.
 
 
 [^1]: If you want your code to behave differently on the full moon, there's actually a [package for that](https://pypi.python.org/pypi/astral/0.7.4). I'd tell you to use it responsibly, but really, who am I kidding? The prank potential is literally astronomical.
