@@ -11,7 +11,7 @@ You can probably tell where this is going.
 
 <!-- more -->
 
-Suffice it to say, I'm stubborn and I hate Bad Code. I've been doing [a lot of Unity work lately](http://www.got-rekt.com), and I had decided prior to Ludum Dare that I'd take any opportunity -- even a *bad* opportunity -- to work on improving my Unity project organization. And improbably, I actually worked at least one thing out.
+Suffice it to say, I'm stubborn and I hate Bad Code. I've been doing a lot of Unity work lately, and I had decided prior to Ludum Dare that I'd take any opportunity -- even a *bad* opportunity -- to work on improving my Unity project organization. And improbably, I actually worked at least one thing out.
 
 It may be that everybody else was already doing this and I'm late to the party. Or it may be that it's a terrible idea, and I just haven't realized it yet. But so far, it looks like a decent way to hack around some of Unity's architecture limitations without working too hard. So, without further ado:
 
