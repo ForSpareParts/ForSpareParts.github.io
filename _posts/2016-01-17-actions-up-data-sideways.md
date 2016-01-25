@@ -381,7 +381,7 @@ in action, cleaning up a bit of that horrible code from before...
 import Ember;
 import AsyncDataComponentMixin from 'our-app/mixins/components/async-data';
 
-export default Ember.Component.extend({
+export default Ember.Component.extend(AsyncDataComponentMixin, {
   sortBy: 'value',
   filterOn: 'otherValue',
   limit: 10,
