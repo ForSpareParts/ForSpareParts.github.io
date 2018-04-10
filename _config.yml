@@ -13,3 +13,6 @@ permalink: pretty
 
 
 excerpt_separator: "<!-- more -->"
+
+plugins:
+  - jekyll-gist
