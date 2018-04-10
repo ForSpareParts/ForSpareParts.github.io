@@ -128,4 +128,4 @@ also believe it'll be extremely useful for making Unity classes easier to unit
 test, but that's another post.
 
 Thoughts? Criticisms? I'd be very interested in any input. If you're interested
-in seeing the project that inspired these posts, it's [on GitHub](https://github.com/ForSpareParts/EllDeeThirtyTwo) and can be played online [right here](http://commondatastorage.googleapis.com/itchio/html/53025/FINAL%20WEBGL%20BUILD/index.html)
+in seeing the project that inspired these posts, it's [on GitHub](https://github.com/davidwallacejackson/EllDeeThirtyTwo) and can be played online [right here](http://commondatastorage.googleapis.com/itchio/html/53025/FINAL%20WEBGL%20BUILD/index.html)

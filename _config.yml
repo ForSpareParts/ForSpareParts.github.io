@@ -3,9 +3,9 @@ title: over-engineering
 # email: your-email@domain.com
 description: "The blog/personal homepage of David Jackson. He writes code."
 baseurl: ""
-url: "http://forspareparts.github.io"
+url: "http://davidwallacejackson.github.io"
 twitter_username: ForSpareParts
-github_username:  ForSpareParts
+github_username:  davidwallacejackson
 
 # Build settings
 markdown: kramdown

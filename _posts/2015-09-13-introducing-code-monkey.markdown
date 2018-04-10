@@ -9,7 +9,7 @@ A while back, I was working on an extremely tedious refactor on a huge Python co
 
 I realized pretty quickly that I could describe the edits I wanted to make algorithmically -- in that context, they were really, really simple. So I went looking for some scriptable Python refactoring tools, and found... well... not much. [Rope](https://github.com/python-rope/rope), the most well-developed refactoring library for Python, still felt a little too heavy and complicated for the kind of quick one-offs I wanted to write. So, I took a stab at creating my own.
 
-Singer/songwriter/genius Jonathan Coulton wrote a [great song](https://www.youtube.com/watch?v=v4Wy7gRGgeA) honoring those who slog through boring, tedious coding work. So, I thought, what better name for a refactoring library than [code_monkey](https://github.com/ForSpareParts/code_monkey)?
+Singer/songwriter/genius Jonathan Coulton wrote a [great song](https://www.youtube.com/watch?v=v4Wy7gRGgeA) honoring those who slog through boring, tedious coding work. So, I thought, what better name for a refactoring library than [code_monkey](https://github.com/davidwallacejackson/code_monkey)?
 
 <!-- more -->
 
@@ -29,7 +29,7 @@ Anyway, here's some code:
     from code_monkey.edit import ChangeSet
 
     q = project_query('/path/to/my/project')
-    
+
     #these are all the Model classes in our project (hopefully)
     model_classes = q.flatten().classes().path_contains('.models.')
 {% endhighlight %}
@@ -62,11 +62,11 @@ Once you've got a bunch of interesting Nodes, you can create a `ChangeSet` to al
 
     from code_monkey.edit import ChangeSet
     changeset = ChangeSet()
-    
+
     for class_node in model_classes:
         changeset.add(class_node.change.inject_at_body_line(0,
             '    new_property = models.CharField(max_length=128)\n'))
-    
+
     print(changeset.diff())
 {% endhighlight %}
 
