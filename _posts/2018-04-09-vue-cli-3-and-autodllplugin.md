@@ -31,7 +31,7 @@ Awesome!
 
 So let's talk a bit more about what happened here: the AutoDllPlugin wraps webpack's DllPlugin, which lets you prebuild dependencies that don't change very often into a separate bundle. DllPlugin requires a whole separate webpack config -- AutoDllPlugin will generate that webpack config (and when appropriate, run it) for you. vue-cli 3.0 goes one step further, and _automatically configures AutoDllPlugin_.
 
-AutoDllPlugin needs a list of the modules you want to pre-build, and it compiles them, with all their dependendies, into a separate bundle. If you put `dll: true` in your `vue.config.js`, vue-build will just read your package.json, pick out everything in `dependencies`, and use that as its list.
+AutoDllPlugin needs a list of the modules you want to pre-build, and it compiles them, with all their dependendies, into a separate bundle. If you put `dll: true` in your `vue.config.js`, vue-build will just read your `package.json`, pick out everything in `dependencies`, and use that as its list.
 
 This actually works really, really well. But it's not perfect. Consider this package:
 
@@ -60,7 +60,7 @@ export default {
 }
 {% endhighlight %}
 
-If `some-package` is in your package.json, vue-cli will pass `'some-package'` to AutoDllPlugin, which will import `index.js` and its dependency `a.js`. It *won't* import `b.js`.
+If `some-package` is in your `package.json`, vue-cli will pass `'some-package'` to AutoDllPlugin, which will import `index.js` and its dependency `a.js`. It *won't* import `b.js`.
 
 And if you use `b` in your project (say, with `import b from 'some-package/b'`), that's a real problem. `b` is huge -- look at those dependencies -- and now the whole thing is getting compiled into your app's entry chunk. Every. Single. Build.
 
